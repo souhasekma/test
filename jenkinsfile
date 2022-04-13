@@ -19,9 +19,7 @@ pipeline {
                 }
             }
             steps {
-                
-               sh ' npm config set proxy false'
-               sh 'npm cache clean --force'
+             
                 sh 'npm install'
                 sh 'npm run build'
                 
