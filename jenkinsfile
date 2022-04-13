@@ -33,10 +33,10 @@ pipeline {
             }
             steps {
                 sh 'pip3 install --upgrade pip'
-                sh 'pip3 install --user virtualenv'
-                sh  'virtualenv .venv'
-                sh  'source .venv/bin/activate'
-                sh  'pip install -r selenium'
+                sh 'pip3 install  virtualenv'
+                sh  'virtualenv /home/venv'
+                sh  'source /home/venv/bin/activate'
+                sh  'pip install selenium'
                 sh  'python reacttest.py'
             }
         }  
