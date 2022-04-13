@@ -20,7 +20,7 @@ class home extends Component {
       return (
         <div id='cards'>
         <Card style={{ width: '18rem' }}>
-        <img class="card-img-top" src={img1} />
+        <img class="card-img-top" src={img1} alt="souha" />
           <Card.Body>
             <Card.Title>iphone x</Card.Title>
             <Card.Text>
@@ -32,7 +32,7 @@ class home extends Component {
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
-        <img class="card-img-top" src={img2}  />
+        <img class="card-img-top" src={img2} alt="souha1" />
 
           <Card.Body>
             <Card.Title>iphone xr </Card.Title>
@@ -46,7 +46,7 @@ class home extends Component {
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
-        <img class="card-img-top" src={img3} />
+        <img class="card-img-top" src={img3} alt="souha2"/>
 
           <Card.Body>
             <Card.Title>iphone 8 plus </Card.Title>
